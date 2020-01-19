@@ -1,0 +1,24 @@
+{
+  "name": "rollup-dynamic-import",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "serve": "serve -p 1461 -f ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rollup", "dynamic-import"],
+  "author": "hasangenc.istanbul@hotmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-html": "^0.1.1",
+    "@rollup/plugin-typescript": "^2.1.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-loadz0r": "^0.7.2",
+    "serve-please": "^1.0.4",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  }
+}
